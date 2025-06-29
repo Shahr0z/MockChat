@@ -83,7 +83,7 @@ const RequestListCard: React.FC<RequestListCardProps> = ({
 
     return (
         <TouchableOpacity style={styles.container} activeOpacity={0.85}>
-            {/* Left */}
+
             <View style={styles.leftContent}>
                 <View style={styles.avatarWrapper}>
                     <Image source={{ uri: avatarUrl }} style={styles.avatar} />
@@ -112,7 +112,6 @@ const RequestListCard: React.FC<RequestListCardProps> = ({
                 </View>
             </View>
 
-            {/* Middle */}
             <View style={styles.middleContent}>
                 <View style={styles.topRow}>
                     <Text style={styles.requesterName} numberOfLines={1}>
@@ -137,7 +136,6 @@ const RequestListCard: React.FC<RequestListCardProps> = ({
                 </View>
             </View>
 
-            {/* Right */}
             <View style={styles.rightContent}>
                 <Text style={styles.timeText}>{requestTime}</Text>
             </View>

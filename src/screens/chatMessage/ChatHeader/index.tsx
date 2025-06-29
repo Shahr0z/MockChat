@@ -11,7 +11,7 @@ import {
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import Avatar from '../Avatar';
 
-// Status mapping
+// Status
 const statusConfig: Record<number, { color: string; label: string }> = {
     0: { color: '#6B7280', label: 'Offline' },
     1: { color: '#10B981', label: 'Online' },
